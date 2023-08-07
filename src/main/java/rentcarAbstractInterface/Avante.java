@@ -1,4 +1,4 @@
-package rentcar;
+package rentcarAbstractInterface;
 
 public class Avante extends AbstractCar {
 

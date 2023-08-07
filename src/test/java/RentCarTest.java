@@ -1,7 +1,9 @@
-package rentcar;
-
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import rentcarAbstractInterface.Avante;
+import rentcarAbstractInterface.K5;
+import rentcarAbstractInterface.RentCompany;
+import rentcarAbstractInterface.Sonata;
 
 public class RentCarTest {
     private static final String NEWLINE = System.getProperty("line.separator");

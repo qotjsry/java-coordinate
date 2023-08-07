@@ -1,4 +1,4 @@
-package rentcar;
+package rentcarAbstractInterface;
 
 public interface Car {
     String getName();

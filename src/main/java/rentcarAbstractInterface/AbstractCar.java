@@ -1,4 +1,4 @@
-package rentcar;
+package rentcarAbstractInterface;
 
 public abstract class AbstractCar implements Car{
     private double distance;

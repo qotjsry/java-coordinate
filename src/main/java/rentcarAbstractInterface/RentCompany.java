@@ -1,4 +1,4 @@
-package rentcar;
+package rentcarAbstractInterface;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ public class RentCompany {
     private static final String NEWLINE = System.getProperty("line.separator");
     private static RentCompany rentCompany = null;
     private List<Car> cars = new ArrayList<>();
-    static RentCompany create() {
+    public static RentCompany create() {
         if(rentCompany == null)
             rentCompany = new RentCompany();
         return rentCompany;
