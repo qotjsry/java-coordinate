@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a971bf7e-eff8-47c9-a076-e51bdc5d6a8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstract/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstract/K5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstract/Sonata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coordinate/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coordinate/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/coordinate/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/coordinate/LineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/coordinate/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/coordinate/RectangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rentcar/AbstractCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstractInterface/AbstractCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rentcar/Avante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstractInterface/Avante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rentcar/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstractInterface/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rentcar/K5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstractInterface/K5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rentcar/RentCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstractInterface/RentCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rentcar/Sonata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rentcarAbstractInterface/Sonata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rentcar/RentCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rentcarAbstract/RentCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RentCarTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,11 +70,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="coordinate" />
       <recent name="rentcar" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rentcarAbstract" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="RentCarTest.reportTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PointTest">
+    <configuration name="LineTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -80,7 +92,99 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;rentcar.RentCarTest.reportTest&quot;" />
+            <option value="&quot;coordinate.LineTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PointTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;coordinate.PointTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PointTest.point_over_error_test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;coordinate.PointTest.point_over_error_test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RectangleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;coordinate.RectangleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RectangleTest.rectangle_생성_오류" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;coordinate.RectangleTest.rectangle_생성_오류&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -92,7 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RentCarTest.reportTest" />
+        <item itemvalue="Gradle.PointTest" />
+        <item itemvalue="Gradle.LineTest" />
+        <item itemvalue="Gradle.PointTest.point_over_error_test" />
+        <item itemvalue="Gradle.RectangleTest" />
+        <item itemvalue="Gradle.RectangleTest.rectangle_생성_오류" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +212,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691322963118</updated>
-      <workItem from="1691322964385" duration="7535000" />
+      <workItem from="1691322964385" duration="15101000" />
     </task>
     <servers />
   </component>
